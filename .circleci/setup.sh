@@ -10,7 +10,7 @@ sudo apt-get install -y libpng-dev
 sudo docker-php-ext-install gd
 
 # Install Composer
-'curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer'
+'curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer --version=1.6.3'
 
 # Display versions
 php -v
